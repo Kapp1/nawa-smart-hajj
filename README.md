@@ -66,6 +66,8 @@ It ensures intelligent, contactless, and secure guidance for every pilgrim, with
 
 ## 📄 Supporting Documentation
 
+📥 [Download the full NAWA System Proposal (Arabic PDF)](https://github.com/Kapp1/nawa-smart-hajj/blob/main/docs/%D9%85%D8%B4%D8%B1%D9%88%D8%B9%20%D9%86%D9%88%D9%89.pdf)
+
 📥 [Project PDF: NAWA Full System Proposal (Arabic)](./docs/مشروع_نوى.pdf)
 
 ---
