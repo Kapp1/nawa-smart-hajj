@@ -101,4 +101,20 @@ NAWA directly addresses the strategic pillars of Saudi Arabia's Vision 2030 for 
 5. **Sustainable Operations in Holy Sites**  
    Reuses existing infrastructure, leverages BLE beacons, and minimizes data transfer load with local inference.
 
-6. **Fraud Prevention**
+6. **Fraud Prevention and Visa Misuse Detection**  
+   Detects unauthorized entries (e.g. Umrah visas used during Hajj) using AWS Rekognition + immigration database API sync.
+
+---
+
+## 📄 Documentation & License
+
+📥 [Download the full NAWA System Proposal (Arabic PDF)](https://github.com/Kapp1/nawa-smart-hajj/blob/main/docs/مشروع_نوى.pdf)
+
+⚖️ Licensed under the [Apache License 2.0](LICENSE)  
+> *Commercial usage requires attribution and prior written permission.*
+
+---
+
+## 🇸🇦 Made in Saudi Arabia by [@Kapp1](https://github.com/Kapp1)
+
+> **"نَوى يحوّل النية إلى بيانات، والبيانات إلى سلامة."**
