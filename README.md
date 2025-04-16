@@ -1,8 +1,24 @@
 # 🕋 نَوى | NAWA – Smart Pilgrim Management System 🇸🇦
 
+<p align="center">
+  <img src="assets/banner.png" width="80%" alt="NAWA Banner" />
+</p>
+
 [![License: Apache 2.0](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](LICENSE)
 
 > A scalable, AI-powered, biometric-driven framework for managing Hajj & Umrah pilgrims in the Kingdom of Saudi Arabia.
+
+---
+
+## 📚 Table of Contents
+- [Overview](#-overview)
+- [Core Features](#-core-features)
+- [Technical Stack](#-technical-stack)
+- [System Flow](#️-system-flow)
+- [Compliance & Privacy](#-compliance--privacy)
+- [Strategic Alignment](#-strategic-alignment-with-hajj-vision-2030)
+- [Documentation & License](#-documentation--license)
+- [Author](#-made-in-saudi-arabia-by-kapp1)
 
 ---
 
@@ -17,19 +33,19 @@ It ensures intelligent, contactless, and secure guidance for every pilgrim, with
 ## 🎯 Core Features
 
 - **🎦 Biometric Verification**  
-  Integration with **AWS Rekognition** and passport photos to detect illegal visa misuse (e.g. Umrah visas during Hajj).
+  Integration with AWS Rekognition and passport photos to detect illegal visa misuse (e.g. Umrah visas during Hajj).
 
 - **📡 Offline Edge AI Processing**  
-  **Jetson Nano** devices analyze live crowd density and behaviors — even with no internet.
+  Jetson Nano devices analyze live crowd density and behaviors, even with no internet.
 
 - **📍 BLE-Based Guidance (for Non-Tech Users)**  
-  **Estimote Beacons** + audio/visual stations to guide elderly or non-digital pilgrims.
+  Estimote Beacons + audio/visual nodes auto-guide elderly/non-digital pilgrims.
 
 - **📱 Flutter-Based Pilgrim App**  
   Real-time religious and logistical notifications in multiple languages.
 
 - **🧠 Behavior Prediction**  
-  AI models detect abnormal movements, overcrowding, or ritual violations in real-time.
+  AI models detect abnormal movements, overcrowding, or schedule violations in real-time.
 
 ---
 
@@ -41,7 +57,7 @@ It ensures intelligent, contactless, and secure guidance for every pilgrim, with
 | Backend     | FastAPI + Node.js + Webhooks                     |
 | Database    | PostgreSQL + Firebase Realtime DB                |
 | AI Models   | Python (Scikit-Learn + TensorFlow Lite)          |
-| Cameras     | Hikvision + OpenCV + AWS Rekognition             |
+| Cameras     | Hikvision Smart Cams + OpenCV + AWS Rekognition  |
 | Edge Units  | NVIDIA Jetson Nano                               |
 | IoT Layer   | Estimote BLE Beacons + NFC Tags                  |
 | Security    | OAuth2 + JWT + TLS 1.3                           |
@@ -50,18 +66,18 @@ It ensures intelligent, contactless, and secure guidance for every pilgrim, with
 
 ## 🗺️ System Flow
 
-1. Visa issued → pilgrim facial data enrolled into Rekognition DB.
-2. Arrival → NFC tag or facial recognition activates tracking.
-3. Movement monitored via cameras + beacons + pilgrim app.
-4. Real-time alerts sent to authorities if misuse, overstays, or crowding occurs.
-5. Feedback collected via app & admin dashboard post-departure.
+1. Visa issued → pilgrim facial data enrolled into Rekognition DB.  
+2. Arrival → NFC or facial recognition activates tracking.  
+3. Movement monitored via cameras + beacons + app.  
+4. Real-time notifications sent to authorities if misuse or overcrowding occurs.  
+5. Post-ritual feedback collected via app and control panel.
 
 ---
 
 ## 🔐 Compliance & Privacy
 
-- ✅ End-to-End encrypted (AES-256 + TLS 1.3)
-- ✅ No sensitive data stored on devices
+- ✅ End-to-End encrypted (AES-256 + TLS 1.3)  
+- ✅ No sensitive data stored on devices  
 - ✅ All biometric operations comply with **Saudi SDAIA policies**
 
 ---
@@ -85,19 +101,4 @@ NAWA directly addresses the strategic pillars of Saudi Arabia's Vision 2030 for 
 5. **Sustainable Operations in Holy Sites**  
    Reuses existing infrastructure, leverages BLE beacons, and minimizes data transfer load with local inference.
 
-6. **Fraud Prevention and Visa Misuse Detection**  
-   Detects unauthorized entries (e.g., Umrah visas used during Hajj) using AWS Rekognition + immigration database API sync.
-
----
-
-## 📄 Documentation & Licensing
-
-- 📥 [Download the full NAWA System Proposal (PDF, Arabic)](https://github.com/Kapp1/nawa-smart-hajj/blob/main/docs/مشروع_نوى.pdf)
-- ⚖️ Licensed under the [Apache License 2.0](LICENSE)  
-  > *Commercial usage requires attribution and prior written permission.*
-
----
-
-## 🇸🇦 Made in Saudi Arabia by [@Kapp1](https://github.com/Kapp1)
-
-> **"نَوى يحوّل النية إلى بيانات، والبيانات إلى سلامة."**
+6. **Fraud Prevention**
